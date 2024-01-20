@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya's Ecommerce Website</title>
+    <script src="https://kit.fontawesome.com/56cca8466b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Vina+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section id="header">
+        <img src="./istockphoto-1133937441-170667a.jpg" class="logo" alt="" height="100px" width="100px">
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a  href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #0b1f41;"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping" style="color: #0b1f41;"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+            
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+       
+        <h2>Your Shopping Cart</h2>
+        
+        <p>Scroll Down to Access your Shopping Cart!</p>
+       
+    </section>
+
+    <section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Price</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./products/f1.jpg" alt=""></td>
+                <td> Cartoon Astronaut T-Shirt</td>
+                <td>R 118.19</td>
+                <td><input type="number" value="1"></td>
+                <td>R 118.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./products/f2.jpg" alt=""></td>
+                <td> Adult Sized Designer Shirt</td>
+                <td>R 150.19</td>
+                <td><input type="number" value="1"></td>
+                <td>R 150.19</td>
+            </tr>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td><img src="./products/f3.jpg" alt=""></td>
+                <td>Adult Sized Designer Shirt</td>
+                <td>R 179.19</td>
+                <td><input type="number" value="1"></td>
+                <td>R 179.19</td>
+            </tr>
+        </tbody>
+    </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter Coupon Code">
+                <button class=""normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Totals</h3>
+            <table>
+                <tr>
+                    <td>Subtotal</td>
+                    <td>R 447.57</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>R 50.00</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td>R 497.57</td>
+                </tr>
+            </table>
+            <button class="normal" id="buttonCheckOut">Proceed to Checkout</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img src="./istockphoto-1133937441-170667a.jpg" alt="">
+            <h4>Contact</h4>
+            <p><strong>Address</strong> 123 Street Name, City, India</p>    
+            <p><strong>Phone</strong> +91 1234567890</p>
+            <p><strong>Email</strong> aabbccdd@gmail.com</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <p>Let Us Be Social</p>
+                <div class="icon">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a> 
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a> 
+                </div>  
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Privacy Policy</a>  
+            <a href="#">Terms and Conditions</a>    
+
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Account</a>  
+            <a href="#">My Wishlist</a>    
+            <a href="#">Track My Order</a>
+            
+        </div>
+        
+        <div class=""col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="./pay/app.jpg" alt="">
+                <img src="./pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateways</p>
+            <img src="./pay/pay.png" alt="">    
+        </div>
+
+        <div class=""copyright">
+            <p>Website Made by Aditya</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
